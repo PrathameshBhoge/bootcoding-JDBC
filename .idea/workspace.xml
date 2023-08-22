@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1ba836-ab5d-4638-ba3e-1721947124e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/InsertJdbcExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/SelectJdbcExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/UpdatejdbcExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/UserjdbcExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8d1ba836-ab5d-4638-ba3e-1721947124e6" name="Changes" comment="JDBC CRUD Operations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/customerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/methods/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/methods/JdbcUsingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/utils/DBConnectionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcoding-JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bootcoding-JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DeleteJdbcExample">
+  <component name="RunManager" selected="Application.customerApp">
     <configuration name="DeleteJdbcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.DeleteJdbcExample" />
       <module name="bootcoding-JDBC" />
@@ -106,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserjdbcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.UserjdbcExample" />
+    <configuration name="customerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.customerApp" />
       <module name="bootcoding-JDBC" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.customerApp" />
         <item itemvalue="Application.DeleteJdbcExample" />
         <item itemvalue="Application.UpdatejdbcExample" />
         <item itemvalue="Application.InsertJdbcExample" />
         <item itemvalue="Application.SelectJdbcExample" />
-        <item itemvalue="Application.UserjdbcExample" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +131,14 @@
       <option name="presentableId" value="Default" />
       <updated>1692452398713</updated>
     </task>
+    <task id="LOCAL-00001" summary="JDBC CRUD Operations">
+      <created>1692626365748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692626365748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,5 +151,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JDBC CRUD Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC CRUD Operations" />
   </component>
 </project>
