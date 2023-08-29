@@ -7,6 +7,7 @@ public class customerApp {
         JdbcUsingMethods query= new JdbcUsingMethods();
        // query.getAllcustomers();
        // query.getCustomercountbycity();
-         query.getAllBysalesamanId(2);
+        // query.getAllBysalesamanId(2);
+          query.getcustomerbyid(2);
     }
 }

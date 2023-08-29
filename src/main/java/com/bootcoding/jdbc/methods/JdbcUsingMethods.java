@@ -62,11 +62,11 @@ public class JdbcUsingMethods {
         return 0;
     }
 
-    public int getCustomercountbycity(){
+    public int getCustomercountbycity(String city_name){
         try{
             Connection connection=DBConnectionUtils.getConnection();
             Statement statement= connection.createStatement();
-            String query= "Select count(*) from customer where city='Lido'";
+            String query= "Select count(*) from customer where city="+city_name+"";
             ResultSet rs= statement.executeQuery(query);
 
             if(rs.next()){
@@ -154,10 +154,25 @@ public class JdbcUsingMethods {
         return null;
     }
 
+    public String getcustomerbyid(int cust_id){
+
+        try{
+            Connection connection= DBConnectionUtils.getConnection();
+            Statement statement= connection.createStatement();
+            String query = "Select cust_Name from customer where customer_id ="+cust_id+" ";
+            ResultSet rs= statement.executeQuery(query);
+
+            int custId = rs.getInt("customer_id");
+            String name = rs.getString("cust_name");
+
+            Customer customer= new Customer();
+            customer.setCust_name(name);
+            System.out.println(customer.getCust_name());
 
 
+        }catch(Exception ex){
 
-
-
-
+        }
+        return null;
+    }
 }
