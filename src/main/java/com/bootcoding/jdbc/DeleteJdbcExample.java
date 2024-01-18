@@ -15,7 +15,7 @@ public class DeleteJdbcExample {
 
 
             Statement stmt = conn.createStatement();
-            String sql = "DELETE from customer where customer_id = 90";
+            String sql = "DELETE from patient where id = 1072";
 
             int i = stmt.executeUpdate(sql);
 
