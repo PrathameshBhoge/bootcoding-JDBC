@@ -1,10 +1,11 @@
-package com.bootcoding.jdbc;
+package com.bootcoding.jdbc.runs;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
-public class SelectJdbcExample {
+
+public class UserjdbcExample {
     public static void main(String[] args) {
         try{
             //1. Load JDbc Driver
@@ -18,7 +19,7 @@ public class SelectJdbcExample {
             Statement stmt= conn.createStatement();
 
             //4.Execute Query and GEt ResultSet
-            ResultSet rs = stmt.executeQuery("SELECT * FROM customer  ");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM customer");
 
             //4.1 Extract Result
             while(rs.next()){

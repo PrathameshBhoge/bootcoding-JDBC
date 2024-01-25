@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1ba836-ab5d-4638-ba3e-1721947124e6" name="Changes" comment="JDBC CRUD Operations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/customerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/methods/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/methods/JdbcUsingMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/utils/DBConnectionUtils.java" afterDir="false" />
+    <list default="true" id="8d1ba836-ab5d-4638-ba3e-1721947124e6" name="Changes" comment="JDBC by methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/methods/apifetch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/methods/cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcoding-JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bootcoding-JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/DeleteJdbcExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/runs/DeleteJdbcExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/InsertJdbcExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/runs/InsertJdbcExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/SelectJdbcExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/runs/SelectJdbcExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/UpdatejdbcExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/runs/UpdatejdbcExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/UserjdbcExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/runs/UserjdbcExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/customerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bootcoding/jdbc/runs/customerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.1/lib/src.zip!/java.sql/java/sql/Statement.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,24 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java Projects/face-recognition-master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Java Projects/face-recognition-master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.customerApp">
     <configuration name="DeleteJdbcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.DeleteJdbcExample" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.runs.DeleteJdbcExample" />
       <module name="bootcoding-JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcoding.jdbc.*" />
+          <option name="PATTERN" value="com.bootcoding.jdbc.runs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +71,11 @@
       </method>
     </configuration>
     <configuration name="InsertJdbcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.InsertJdbcExample" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.runs.InsertJdbcExample" />
       <module name="bootcoding-JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcoding.jdbc.*" />
+          <option name="PATTERN" value="com.bootcoding.jdbc.runs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="SelectJdbcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.SelectJdbcExample" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.runs.SelectJdbcExample" />
       <module name="bootcoding-JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcoding.jdbc.*" />
+          <option name="PATTERN" value="com.bootcoding.jdbc.runs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdatejdbcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.UpdatejdbcExample" />
+    <configuration name="apifetch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.methods.apifetch" />
       <module name="bootcoding-JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcoding.jdbc.*" />
+          <option name="PATTERN" value="com.bootcoding.jdbc.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="customerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.customerApp" />
+      <option name="MAIN_CLASS_NAME" value="com.bootcoding.jdbc.runs.customerApp" />
       <module name="bootcoding-JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootcoding.jdbc.*" />
+          <option name="PATTERN" value="com.bootcoding.jdbc.runs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,10 +125,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.customerApp" />
-        <item itemvalue="Application.DeleteJdbcExample" />
-        <item itemvalue="Application.UpdatejdbcExample" />
         <item itemvalue="Application.InsertJdbcExample" />
+        <item itemvalue="Application.apifetch" />
         <item itemvalue="Application.SelectJdbcExample" />
+        <item itemvalue="Application.DeleteJdbcExample" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +148,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692626365748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JDBC by methods">
+      <created>1692712244296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692712244296</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JDBC by methods">
+      <created>1693307305965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693307305965</updated>
+    </task>
+    <task id="LOCAL-00004" summary="JDBC by methods">
+      <created>1705564395866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705564395866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JDBC CRUD Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC CRUD Operations" />
+    <MESSAGE value="JDBC by methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC by methods" />
   </component>
 </project>

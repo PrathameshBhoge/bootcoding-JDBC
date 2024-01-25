@@ -1,4 +1,4 @@
-package com.bootcoding.jdbc;
+package com.bootcoding.jdbc.runs;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
